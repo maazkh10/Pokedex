@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #e0f84ab7;
+}
+.container{
+    width: 100%;
+    margin: 100px;
+    padding-top: 100px;
+    display: flex;
+    gap: 2rem;
+}
+.left-content,.right-content{
+    flex-basis: 30%;
+   
+}
+.left-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-gap:2rem;
+}
+.card{
+    width: 300px;
+    background-color:#9EDEF9;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    padding: 0 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.right-content{
+    width: 50%;
+    text-align: center;
+    color: black;
+    position: fixed;
+    top: 400px;
+    right: 10px;
+}
+.right-content img{
+   position: absolute;
+   top: 50%;
+   
+   right: 60%;
+    margin: 1.5rem;
+    height: 390px;
+}
+.right-content h1{
+    text-transform: uppercase;
+    font-weight:700;
+    letter-spacing: 1px;
+}
+.abilities{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    position: absolute;
+    top: 160%;
+    left: 30%;
+}
+.abilities .group{
+    background-color:  rgb(255, 136, 62);
+    color: white;
+    padding: 0.5rem;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-left: 1rem;
+    position: relative;
+    top: 160;
+}
+.base-stat{
+    margin-top: 2rem;
+}
+.btn-group{
+    display: flex;
+}
+.btn-group button{
+    outline: none;
+    border: none;
+    width: 200px;
+    padding: 0.3rem 0;
+    margin: 1rem;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    background-color: #cb2cbb;
+    border-radius: 10px;
+}

@@ -1,0 +1,23 @@
+.bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    grid-template: 60px;
+    padding-right: 80px;
+
+}
+.bottom-btn{
+    display: flex;
+    grid-template: 19px;
+    cursor: pointer;
+}
+.bg-circle-white{
+    border-radius: 60%;
+    padding: 0 5px;
+    background: white;
+    color: black;
+}
